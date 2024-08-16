@@ -6,7 +6,7 @@ Inferring dust properties (Dust temperature, Dust surface density, maximum grain
 - Python 3 <br/>
 - Install the DSHARP opacity tools (See full DSHARP opacity documentation <a href='https://github.com/birnstiel/dsharp_opac/' target="_blank"> Here</a>)
 - Additional packages: numpy, scipy, emcee, corner <br/>
-- Download the opacity files ricci_compact.npz, default_opacities.npz, available at the DSHARP opacity reposity <a href='https://github.com/birnstiel/dsharp_opac/tree/master/dsharp_opac/data' target="_blank"> Here</a>.
+- Download the opacity files ricci_compact.npz, default_opacities.npz, available at the DSHARP opacity reposity <a href='https://github.com/birnstiel/dsharp_opac/tree/master/dsharp_opac/data' target="_blank"> Here</a> <br/>
 - Clone the main.py, Utils.py, properties_LkCa15.py files in this repository and put them in the same directory as the opacity files. <br/>
 - The radial profiles in two or more ALMA Bands or VLA band Q. A single ascii file with the following columns: Radius, Intensity1, Intensity2, ...., IntensityN, ErrorIntensity1, Error Intensity2, ... Error Intensity N. Make sure that the intensities are arrange from the highest frequency Intensity1, to the lowest frequency Intensity N<br/>
 
