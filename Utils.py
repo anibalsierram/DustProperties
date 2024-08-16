@@ -2,7 +2,7 @@
 #Opacities
 #-----------------------
 def Opas(pslope, wls):
-    with np.load('/Users/as/Documents/Research/scripts/opacities/'+params['Opacities']) as d:
+    with np.load(params['Opacities']) as d:
         a_w     = d['a']
         gsca_w  = d['g']
         lam_w   = d['lam']
