@@ -13,6 +13,6 @@ Inferring dust properties (Dust temperature, Dust surface density, maximum grain
 
 
 <h3>How it works?</h3>
-- All you need to do is modify the properties_LkCa15.py file using your disk properties (see each parameter description below), and then run it:
+- All you need to do is modify the properties_LkCa15.py file using your disk properties (see each parameter description below), and run it:
 
 <pre><code>ipython main.py properties_LkCa15.py</code></pre> 
