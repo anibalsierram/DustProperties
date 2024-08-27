@@ -18,8 +18,9 @@ All you need to do is modify the properties_LkCa15.py file using your disk prope
 <pre><code>ipython main.py properties_LkCa15.py</code></pre> 
 
 <h3>Properties file</h3>
-There are serveral parameters in the properties_LkCa15.py file. This is a description of each of them.
+There are serveral parameters in the properties_LkCa15.py file. This is a description of each of them.<br/>
 <br/>
+
 <b>#Disk properties:</b> <br/>
 <ul>
 <li>'outputdir': Output directory to save your results </li>
