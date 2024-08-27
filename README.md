@@ -37,18 +37,20 @@ There are serveral parameters in the properties_LkCa15.py file. This is a descri
 </ul>
 
 <b>#Space parameter:</b> <br/>
-'minRad': minimum radius where you want to fit the properties  <br/>
-'maxRad': maximum radius where you want to fit the properties <br/>
-'smooth': radius where you want to smooth your data (recommended value:  resolution/3)  <br/>
-'minAmax': minimum maximum grain size to explore [centimeters]  <br/>
-'maxAmax': maximum maximum grain size to explore [centimeters]  <br/>
-'minTemp' : minimum dust temperature to explore [Kelvins]  <br/>
-'maxTemp': maximum dust temperature to explore [Kelvins]  <br/>
-'minSigma': minimum dust surface density to explore [g/cm^2]  <br/>
-'maxSigma': maximum dust surface density to explore [g/cm^2]  <br/>
-'Opacities': Opacity properties model. Options: 'default_opacities_smooth.npz' or 'ricci_compact.npz'  <br/>
-'saveEmceePlots': Do you want to save the results from the Emcee? True or False.  <br/>
-
+<ul>
+<li>'minRad': minimum radius where you want to fit the properties  </li>
+<li>'maxRad': maximum radius where you want to fit the properties </li>
+<li>'smooth': radius where you want to smooth your data (recommended value:  resolution/3)  </li>
+<li>'minAmax': minimum maximum grain size to explore [centimeters]  </li>
+<li>'maxAmax': maximum maximum grain size to explore [centimeters]  </li>
+<li>'minTemp' : minimum dust temperature to explore [Kelvins]  </li>
+<li>'maxTemp': maximum dust temperature to explore [Kelvins]  </li>
+<li>'minSigma': minimum dust surface density to explore [g/cm^2]  </li>
+<li>'maxSigma': maximum dust surface density to explore [g/cm^2]  </li>
+<li>'Opacities': Opacity properties model. Options: 'default_opacities_smooth.npz' or 'ricci_compact.npz'  </li>
+<li>'saveEmceePlots': Do you want to save the results from the Emcee? True or False.  </li>
+<ul>
+  
 </b>#Finally, you can include a prior to your fit using the function lnTprior:</b>  <br/>
 Lstar: Luminosity of the central star.  <br/>
 The Tdust radial profile is taken from the dust temperature of an passively irradiated disk, but you can modify it and use your own temperature definition.
