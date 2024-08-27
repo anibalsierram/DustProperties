@@ -49,9 +49,8 @@ There are serveral parameters in the properties_LkCa15.py file. This is a descri
 <li>'maxSigma': maximum dust surface density to explore [g/cm^2]  </li>
 <li>'Opacities': Opacity properties model. Options: 'default_opacities_smooth.npz' or 'ricci_compact.npz'  </li>
 <li>'saveEmceePlots': Do you want to save the results from the Emcee? True or False.  </li>
-<ul>
+</ul>
 
-<br/>  
 <b>#Finally, you can include a prior to your fit using the function lnTprior:</b>  <br/>
 
 Lstar: Luminosity of the central star.  <br/>
