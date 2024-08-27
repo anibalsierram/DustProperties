@@ -50,7 +50,9 @@ There are serveral parameters in the properties_LkCa15.py file. This is a descri
 <li>'Opacities': Opacity properties model. Options: 'default_opacities_smooth.npz' or 'ricci_compact.npz'  </li>
 <li>'saveEmceePlots': Do you want to save the results from the Emcee? True or False.  </li>
 <ul>
+
   
-</b>#Finally, you can include a prior to your fit using the function lnTprior:</b>  <br/>
+<b>#Finally, you can include a prior to your fit using the function lnTprior:</b>  <br/>
+
 Lstar: Luminosity of the central star.  <br/>
 The Tdust radial profile is taken from the dust temperature of an passively irradiated disk, but you can modify it and use your own temperature definition.
