@@ -1,5 +1,5 @@
 # DustProperties (In construction ... )
-Inferring dust properties (Dust temperature, Dust surface density, maximum grain size) from sub-millimeter and millimeter observations.
+Inferring dust properties radial profiles (Dust temperature, Dust surface density, maximum grain size) from sub-millimeter and millimeter dust continuum observations.
 
 
 <h3>What do you need?</h3>
