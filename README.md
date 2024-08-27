@@ -21,19 +21,20 @@ All you need to do is modify the properties_LkCa15.py file using your disk prope
 There are serveral parameters in the properties_LkCa15.py file. This is a description of each of them>
 
 <b>#Disk properties:</b> <br/>
-'outputdir': Output directory to save your results <br/>
-'label': Name of disk  <br/>
-'distance': Distance to your disk in parsecs  <br/>
-'pslope': Slope of the particle size distribution (recommended values: 2.5 < p < 3.5)  <br/>
-'inc': Inclination of your disk. If your radial profiles are already deprojected, use 0!  <br/>
-'nus': Central frequencies of your multi-wavelength data. Warning!: from highest to lowest frequency [GHz]  <br/>
-'flux_error': flux calibrator error in each frequency (see e.g. ALMA Technical Handbook for reference)  <br/>
-'weights': How important is each wavelength in the posterior distribution? Use a list of 1 if all of them are equally important. Use 0 to remove the effect of some walenght  <br/>
-'profiles': path to your intensities profiles. You should provide a file with the following format: radius, Intensity1, Intensity2, ... , Error Intensity1, Error Intensity2, ...]  <br/>
-'Units': What is your intensity units? Options available: 'Jy/sr' or 'Jy/beam'  <br/>
-'rUnits': What is your radius units? Options: 'arcsec' or 'au'  <br/>
-'beam': What is the beam size resolution of your radial profile? (This value is only used if your intensity units are Jy/beam)  <br/>
-
+<ul>
+<li>'outputdir': Output directory to save your results </li>
+<li>'label': Name of disk  </li>
+<li>'distance': Distance to your disk in parsecs  </li>
+<li>'pslope': Slope of the particle size distribution (recommended values: 2.5 < p < 3.5)  </li>
+<li>'inc': Inclination of your disk. If your radial profiles are already deprojected, use 0!  </li>
+<li>'nus': Central frequencies of your multi-wavelength data. Warning!: from highest to lowest frequency [GHz]  </li>
+<li>'flux_error': flux calibrator error in each frequency (see e.g. ALMA Technical Handbook for reference)  </li>
+<li>'weights': How important is each wavelength in the posterior distribution? Use a list of 1 if all of them are equally important. Use 0 to remove the effect of some walenght  </li>
+<li>'profiles': path to your intensities profiles. You should provide a file with the following format: radius, Intensity1, Intensity2, ... , Error Intensity1, Error Intensity2, ...]  </li>
+<li>'Units': What is your intensity units? Options available: 'Jy/sr' or 'Jy/beam'  </li>
+<li>'rUnits': What is your radius units? Options: 'arcsec' or 'au'  </li>
+<li>'beam': What is the beam size resolution of your radial profile? (This value is only used if your intensity units are Jy/beam)  </li>
+</ul>
 
 <b>#Space parameter:</b> <br/>
 'minRad': minimum radius where you want to fit the properties  <br/>
