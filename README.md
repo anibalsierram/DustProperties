@@ -17,6 +17,15 @@ All you need to do is modify the properties_LkCa15.py file using your disk prope
 
 <pre><code>ipython main.py properties_LkCa15.py</code></pre> 
 
+
+<h2>What does the code do?</h2>
+
+<ul>
+  <li>The code uses your radial intensity profiles from ALMA or VLA and the formal solution to the radiative transfer equation in <a href='https://ui.adsabs.harvard.edu/abs/2020ApJ...892..136S/abstract' target='_blank'>Sierra et al. 2020</a> to fit the spectral energy distribution (SED) of your disk at each radius, and infer the dust temperature, dust surface densiy, and maximum grain size radial profile. </li>
+</ul>
+
+
+
 <h2>Properties file</h2>
 There are serveral parameters in the properties_LkCa15.py file. This is a description of each of them.<br/>
 <br/>
@@ -56,17 +65,5 @@ There are serveral parameters in the properties_LkCa15.py file. This is a descri
 
 Lstar: Luminosity of the central star.  <br/>
 The Tdust radial profile is taken from the dust temperature of an passively irradiated disk, but you can modify it and use your own temperature definition.
-
-
-<h2>What does the code do?</h2>
-
-<ul>
-  <li>The code uses your radial intensity profiles from ALMA or VLA and the formal solution to the radiative transfer equation in <a href='https://ui.adsabs.harvard.edu/abs/2020ApJ...892..136S/abstract' target='_blank'>Sierra et al. 2020</a> to fit the spectral energy distribution (SED) of your disk at each radius, and infer the dust temperature, dust surface densiy, and maximum grain size radial profile. </li>
-</ul>
-
-
-
-
-
 
 
