@@ -12,12 +12,12 @@ Inferring dust properties radial profiles (Dust temperature, Dust surface densit
 <li> The radial profiles in two or more bands. A single ascii file with the following columns: Radius, Intensity1, Intensity2, ...., IntensityN, Error Intensity1, Error Intensity2, ... Error Intensity N. Make sure that the intensities are arranged from the highest frequency Intensity1, to the lowest frequency Intensity N</li>
 </ul>
 
-<h3>How it works?</h3>
+<h2>How it works?</h2>
 All you need to do is modify the properties_LkCa15.py file using your disk properties (see each parameter description below), and run it:
 
 <pre><code>ipython main.py properties_LkCa15.py</code></pre> 
 
-<h3>Properties file</h3>
+<h2>Properties file</h2>
 There are serveral parameters in the properties_LkCa15.py file. This is a description of each of them.<br/>
 <br/>
 
@@ -58,7 +58,14 @@ Lstar: Luminosity of the central star.  <br/>
 The Tdust radial profile is taken from the dust temperature of an passively irradiated disk, but you can modify it and use your own temperature definition.
 
 
-<h3>What does the code do?</h3>
+<h2>What does the code do?</h2>
+
+<ul>
+  <li>The code uses your radial intensity profiles from ALMA or VLA and the formal solution to the radiative transfer equation in <a href='https://ui.adsabs.harvard.edu/abs/2020ApJ...892..136S/abstract' target='_blank'>Sierra et al. 2020</a> to fit the spectral energy distribution (SED) of your disk at each radius, and infer the dust temperature, dust surface densiy, and maximum grain size radial profile. </li>
+</ul>
+
+
+
 
 
 
