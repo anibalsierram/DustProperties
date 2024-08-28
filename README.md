@@ -2,7 +2,7 @@
 Inferring dust properties radial profiles (Dust temperature, Dust surface density, maximum grain size) from sub-millimeter and millimeter dust continuum observations.
 
 
-<h3>What do you need?</h3>
+<h2>What do you need?</h2>
 <ul>
 <li> Python 3</li>
 <li> Install the DSHARP opacity tools (See full DSHARP opacity documentation <a href='https://github.com/birnstiel/dsharp_opac/' target="_blank"> Here</a>) </li>
