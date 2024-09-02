@@ -24,7 +24,7 @@ All you need to do is modify the properties_LkCa15.py file using your disk prope
   <li>The code uses your radial intensity profiles from ALMA or VLA and the formal solution to the radiative transfer equation in <a href='https://ui.adsabs.harvard.edu/abs/2020ApJ...892..136S/abstract' target='_blank'>Sierra et al. 2020</a> to fit the spectral energy distribution (SED) of your disk at each radius. The dust temperature, dust surface densiy, and maximum grain size radial profile are infered from the SED fit. </li>
   <li>The SED is initially independently fitted at each radius. This is called ''SED first round''. </li>
   <li>The SED is fitted again at each radius, using the median value of the best-fit values in the surrounding radius as a prior (within +/- rsmooth/2). This is called ''SED second round''.</li>
-  <li>This procedure corrects for unrealistic best-fit values at individual radii.</li>
+  <li>This procedure corrects for unrealistic best-fit values at individual radii, as shown in the Figure below. (The corrected final fit is that shown in the second row).</li>
 </ul>
 
 <img src='Example.png'>
