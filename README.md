@@ -27,6 +27,8 @@ All you need to do is modify the properties_LkCa15.py file using your disk prope
   <li>This procedure corrects for unrealistic best-fit values at individual radii.</li>
 </ul>
 
+<img src='Example.png'>
+
 
 
 <h2>Properties file</h2>
