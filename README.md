@@ -37,7 +37,7 @@ There are serveral parameters in the properties_LkCa15.py file. This is a descri
 
 <b>#Disk properties:</b> <br/>
 <ul>
-<li><span style="color: blue;">'outputdir'</span>: Output directory to save your results </li>
+<li><svg height="14" width="14"><text x="0" y="12" fill="blue">'outputdir'</text></svg>: Output directory to save your results </li>
 <li><span style="color: blue;">'label'</span>: Name of disk  </li>
 <li><span style="color: blue;">'distance'</span>: Distance to your disk in parsecs  </li>
 <li><span style="color: blue;">'pslope'</span>: Slope of the particle size distribution (recommended values: 2.5 < p < 3.5)  </li>
