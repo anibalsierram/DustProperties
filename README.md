@@ -1,7 +1,6 @@
 # DustProperties (In construction ... )
-Questions are welcome at: a.sierra@ucl.ac.uk <br>
 Inferring dust properties radial profiles (Dust temperature, Dust surface density, maximum grain size) from sub-millimeter and millimeter dust continuum observations.
-
+Questions are welcome at: a.sierra@ucl.ac.uk
 
 <h2>What do you need?</h2>
 <ul>
