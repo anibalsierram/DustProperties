@@ -75,8 +75,9 @@ The Tdust radial profile is taken from the dust temperature of an passively irra
 
 
 <h2>Citation</h2>
-If you use this code, you can cite the formal solution to the radiative transfer equation with scattering described in <a href='https://ui.adsabs.harvard.edu/abs/2020ApJ...892..136S/abstract' target='_blank'>Sierra & Lizano 2020</a>, and/or and example where this code has been implemented <a href='https://ui.adsabs.harvard.edu/abs/2024arXiv240815407S/abstract' target='_blank'>Sierra et al. 2024b</a>
+If you use this code, you can cite the formal solution to the radiative transfer equation with scattering described in <a href='https://ui.adsabs.harvard.edu/abs/2020ApJ...892..136S/abstract' target='_blank'>Sierra & Lizano 2020</a>, and/or and example where this code has been implemented <a href='https://ui.adsabs.harvard.edu/abs/2024arXiv240815407S/abstract' target='_blank'>Sierra et al. 2024b</a>.
 
+<br> <br>
 Sierra & Lizano 2020
 <pre><code>
 @ARTICLE{2020ApJ...892..136S,
