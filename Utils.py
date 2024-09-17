@@ -3,23 +3,11 @@
 #-----------------------
 def Opas(pslope, wls):
     with np.load(params['Opacities']) as d:
-        a_w     = d['a']
-        gsca_w  = d['g']
-        lam_w   = d['lam']
-        k_abs_w = d['k_abs']
-        k_sca_w = d['k_sca']
-    if(params['Opacities'] == 'ricci_compact.npz'):
-        gsca_w  = gsca_w.T
-        lam_w   = lam_w.T
-        k_abs_w = k_abs_w.T
-        k_sca_w = k_sca_w.T
-    '''
-    else:
-        print(r'****************************************************************')
-        print(r'Opacity reference not found')
-        print(r'****************************************************************')
-        sys.exit()
-    '''
+        a_w     = d['a'].T
+        gsca_w  = d['g'].T
+        lam_w   = d['lam'].T
+        k_abs_w = d['k_abs'].T
+        k_sca_w = d['k_sca'].T
         
     lam_avgs = wls
     # We split the opacities within the range of frequency to make the calculations faster
