@@ -22,7 +22,7 @@ All you need to do is modify the properties_LkCa15.py file using your disk prope
 <h2>What does the code do?</h2>
 
 <ul>
-  <li>The code uses your radial intensity profiles from ALMA or VLA and the formal solution to the radiative transfer equation in <a href='https://ui.adsabs.harvard.edu/abs/2020ApJ...892..136S/abstract' target='_blank'>Sierra et al. 2020</a> to fit the spectral energy distribution (SED) of your disk at each radius. The dust temperature, dust surface densiy, and maximum grain size radial profile are infered from the SED fit. </li>
+  <li>The code uses your radial intensity profiles from ALMA or VLA and the formal solution to the radiative transfer equation in <a href='https://ui.adsabs.harvard.edu/abs/2020ApJ...892..136S/abstract' target='_blank'>Sierra & Lizano 2020</a> to fit the spectral energy distribution (SED) of your disk at each radius. The dust temperature, dust surface densiy, and maximum grain size radial profile are infered from the SED fit. </li>
   <li>The SED is initially independently fitted at each radius. This is called ''SED first round''. </li>
   <li>The SED is fitted again at each radius, using the median value of the best-fit values in the surrounding radius as a prior (within +/- rsmooth/2). This is called ''SED second round''.</li>
   <li>This procedure corrects for unrealistic best-fit values at individual radii, as shown in the Figure below. (The corrected final fit is that shown in the second row).</li>
@@ -67,7 +67,56 @@ There are serveral parameters in the properties_LkCa15.py file. This is a descri
 <li>'saveEmceePlots': Do you want to save the results from the Emcee? True or False.  </li>
 </ul>
 
+
 <b>#Finally, you can include a prior to your fit using the function lnTprior:</b>  <br/>
 
 Lstar: Luminosity of the central star.  <br/>
 The Tdust radial profile is taken from the dust temperature of an passively irradiated disk, but you can modify it and use your own temperature definition.
+
+
+<h2>Citation</h2>
+If you use this code, you can cite the formal solution to the radiative transfer equation with scattering described in <a href='https://ui.adsabs.harvard.edu/abs/2020ApJ...892..136S/abstract' target='_blank'>Sierra & Lizano 2020</a>, and/or and example where this code has been implemented <a href='https://ui.adsabs.harvard.edu/abs/2024arXiv240815407S/abstract' target='_blank'>Sierra et al. 2024b</a>
+
+Sierra & Lizano 2020
+<pre><code>
+@ARTICLE{2020ApJ...892..136S,
+       author = {{Sierra}, Anibal and {Lizano}, Susana},
+        title = "{Effects of Scattering, Temperature Gradients, and Settling on the Derived Dust Properties of Observed Protoplanetary Disks}",
+      journal = {\apj},
+     keywords = {Circumstellar dust, Interstellar scattering, Radiative transfer, Radio continuum emission, Protoplanetary disks, 236, 854, 1335, 1340, 1300, Astrophysics - Earth and Planetary Astrophysics, Astrophysics - Solar and Stellar Astrophysics},
+         year = 2020,
+        month = apr,
+       volume = {892},
+       number = {2},
+          eid = {136},
+        pages = {136},
+          doi = {10.3847/1538-4357/ab7d32},
+archivePrefix = {arXiv},
+       eprint = {2003.02982},
+ primaryClass = {astro-ph.EP},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2020ApJ...892..136S},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+</code></pre>
+
+  
+Sierra et al. 2024b
+<pre><code>
+  @ARTICLE{2024arXiv240815407S,
+       author = {{Sierra}, Anibal and {P{\'e}rez}, Laura M. and {Sotomayor}, Benjam{\'\i}n and {Benisty}, Myriam and {Chandler}, Claire J. and {Andrews}, Sean and {Carpenter}, John and {Henning}, Thomas and {Testi}, Leonardo and {Ricci}, Luca and {Wilner}, David},
+        title = "{Constraints on the physical origin of large cavities in transition disks from multi-wavelength dust continuum emission}",
+      journal = {arXiv e-prints},
+     keywords = {Astrophysics - Earth and Planetary Astrophysics, Astrophysics - Solar and Stellar Astrophysics},
+         year = 2024,
+        month = aug,
+          eid = {arXiv:2408.15407},
+        pages = {arXiv:2408.15407},
+          doi = {10.48550/arXiv.2408.15407},
+archivePrefix = {arXiv},
+       eprint = {2408.15407},
+ primaryClass = {astro-ph.EP},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv240815407S},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+</code></pre>
