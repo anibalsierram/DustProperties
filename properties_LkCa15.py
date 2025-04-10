@@ -9,7 +9,7 @@ disk_properties = {'outputdir': 'LkCa15',
                   'nus': np.array([340.8, 228.0, 97.5])*1.e9, #Warning: Frequency list should decrease [GHz]
                   'flux_error': np.array([0.1,0.1,0.05]),
                   'weights': np.array([1,1,1]),            
-                  'profiles': '/Path/To/The/Radial/Profiles.txt',#[format: rad, I1, I2, ... , dI1, dI2, ...]
+                  'profiles': '/Path/To/The/Radial/LkCa15_multiwave.txt',#[format: rad, I1, I2, ... , dI1, dI2, ...]
                   'Units': 'Jy/sr',
                   'rUnits': 'arcsec', #arcsec or au                  
                   'beam': 0., #in arcsec. This parameter is only used if units are Jy/beam
